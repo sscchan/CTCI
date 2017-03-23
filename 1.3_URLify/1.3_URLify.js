@@ -1,6 +1,7 @@
 
 function URLify(inputString) {
-
+  var URLString = inputString.replace(/[ ]/g, '%20');
+  return URLString;
 }
 
 function testCode() {
