@@ -35,7 +35,7 @@ class SortedStack {
 
     while (this.smallerStack.length > 0) {
       this.sortedStack.push(this.smallerStack.pop());
-    }    ``
+    }    
 
 
   }
